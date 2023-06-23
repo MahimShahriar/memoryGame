@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>MemeGenerator</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<section class="mainContainer">
+			<div class="container">
+				<h1>MemeGenerator</h1>
+				<p>Lets have some fun</p>
+				<form class="form" action="#">
+					<label class="lable" for="imgUrl">Image Url Here</label>
+					<input
+						id="imgUrl"
+						type="text"
+						placeholder="https://www.google.com/imgres?imgurl=https%3A%2F%2Fi.natgeofe"
+					/>
+					<br />
+					<label class="lable" for="topText">Top Text Here</label>
+					<input id="topText" type="text" placeholder="If you know" />
+					<br />
+					<label class="lable" for="bottomText">Bottom Text Here</label>
+					<input id="bottomText" type="text" placeholder="You Know" />
+					<br />
+					<button id="submitBtn">Create Meme</button>
+				</form>
+			</div>
+
+			<section class="imgSection"></section>
+		</section>
+
+		<script src="script.js"></script>
+	</body>
+</html>
